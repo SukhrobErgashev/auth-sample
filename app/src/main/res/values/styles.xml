@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="JustFillIt" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@drawable/text_input_box_stroke</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="endIconTint">@color/gray</item>
+        <item name="startIconTint">@color/gray</item>
+        <item name="circleRadius">80dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="hintTextColor">@color/purple_500</item>
+        <item name="boxBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="AccentButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#2879E5</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="rippleColor">@color/purple_700</item>
+<!--        <item name="icon">@color/white</item>-->
+        <item name="iconTint">@color/white</item>
+    </style>
+</resources>
